@@ -1,7 +1,7 @@
 package com.shobhit.javapractice;
 
 import java.util.HashMap;
-import java.util.Map;
+import java.util.Map; 
 
 public class FirstNonRepetaingchar {
 	// Function to find the first non-repeating character in an array
@@ -17,7 +17,7 @@ public class FirstNonRepetaingchar {
 
 		// Step 3: Traverse the map in insertion order
 		for (Map.Entry<Character, Integer> entry : map.entrySet()) {
-			if (entry.getValue() == 1) {
+			if (entry.getValue() > 1) {
 				return entry.getKey();
 			}
 		}
