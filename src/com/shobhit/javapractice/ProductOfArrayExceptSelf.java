@@ -6,7 +6,7 @@ public class ProductOfArrayExceptSelf {
 
 	public static void main(String[] args) {
 
-		int arr[] = {1,2,3,4,5,1};
+		int arr[] = {1,2,3};
 		System.out.println(Arrays.toString(productExceptSelf(arr)));
 		
 	}
